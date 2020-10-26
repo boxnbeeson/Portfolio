@@ -1,1 +1,0 @@
-# jpbeeson.github.io
