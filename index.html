@@ -28,7 +28,7 @@
 					<h1>Jacob Beeson</h1>
 					<ul class="icons">
 						<li><a href="https://www.linkedin.com/in/jacobbeeson/" target="_blank"
-								class="fab fa-linkedin"><span class="label"></span></a></li>
+								class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						<li><a href="https://www.instagram.com/boxnbeeson" target="_blank"
 								class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="https://github.com/jpbeeson" target="_blank" class="icon brands fa-github"><span
@@ -40,9 +40,9 @@
 				<ul>
 					<li><a href="#intro">Intro</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#resume">Resume</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="#elements">Elements</a></li>
+					<li><a href="#resumeCV">Resume</a></li>
+					<!-- <li><a href="#contact">Contact</a></li> -->
+					<!-- <li><a href="#elements">Elements</a></li> -->
 				</ul>
 			</nav>
 		</header>
@@ -52,73 +52,108 @@
 
 			<!-- Intro -->
 			<article id="intro">
-				<h2 class="major">Intro</h2>
-				<p>Start</p>
-				<h3 class="major">About Me</h3>
-				<p>Start</p>
+				<h1 class="major">Intro</h1>
+				<img class="introPic" src="images/introPic.jpg">
+				<text class="aboutMe">
+					Full-stack web developer utilizing a bachelor’s degree in psychology to create immersive UX/UI design. Currently earning a full-stack developer certificate through UNC-Chapel Hill’s coding bootcamp. Strengths include HTML, CSS, JavaScript, responsive web design, and back-end integration. Known for my leadership qualities and ability to take initiative. Successfully led a large organization while in university, restructuring its design while also increasing its membership and community outreach. Recently worked in two teams, one as a back-end developer creating an LiveLink utilizing API integration to deliver the user new and exciting date-night meal recipes, and one as a front-end developer to create a coffee shop LiveLink that utilized many different technologies, such as MySQL and Handlebars, to allow users to order and receive coffee in a COVID-friendly manner. My adaptive nature and positive interpersonal communication skills make me a great addition to any development team!
+				</text>
 			</article>
 
 			<!-- Portfolio -->
 			<article id="portfolio">
-				<h2 class="major">Portfolio</h2>
+				<h1 class="major">Portfolio</h1>
 				<container>
 					<div class="row">
 						<div class="column">
 						  <div class="content2">
-							<h3 class="cardTitle">My Work</h3>
-							<img class="cardImg" src="images/sample.png" alt="Mountains">
-							<p>First</p>
+							<h3 class="cardTitle">CoffeeHut</h3>
+							<img class="cardImg" src="images/coffeeHut.gif" alt="CoffeeHut">
+							<a href="https://project-2-team-7.herokuapp.com/" target="_blank" class="button primary">LiveLink</a> 
+							<a href="https://github.com/jesseodonoghue/project-2" target="_blank" class="button">Code</a>
+							<p>
+							A web-based application through which a user can order coffee. Users can create a profile and modify drinks.
+							Drinks are pulled from a database, and user orders are saved and displayed under their profile. Technologies 
+							used: HTML, CSS, Javascript, Handlebars, Express, MySQL, Sequelize, CSS, and Passport.
+							</p>
 						  </div>
 						</div>
 						<div class="column">
 						  <div class="content2">
-						  <img src="" alt="Lights" style="width:50%">
-							<h3>My Work</h3>
-							<p>Second</p>
+							<h3>Dinner Dice</h3>
+							<img class="cardImg" src="images/dinnerDice.gif" alt="DinnerDice">
+							<a href="https://victoriagfield.github.io/Dinner_Dice/" target="_blank" class="button primary">LiveLink</a> 
+							<a href="https://github.com/victoriagfield/Dinner_Dice" target="_blank" class="button">Code</a>
+							<p>
+							An application where users may select specific dietary options and obtain a random food and drink combination
+							based off their selection. The user is presented with their option, the recipe, and the ingredients required which
+							is pulled from an API. Users may clip the results and save it for later use. Technologies used: HTML, CSS, Bootstrap,
+							JavaScript, jQuery, and API integration.
+							</p>
 						  </div>
 						</div>
 						<div class="column">
 							<div class="content2">
-							  <img src="" alt="Mountains" style="width:100%">
-							  <h3>My Work</h3>
-							  <p>Third</p>
+							  <h3>Weather Dashboard</h3>
+							  <img class="cardImg" src="images/weatherDashboard.gif" alt="WeatherDashboard">
+							  <a href="https://jpbeeson.github.io/Weather-Dashboard/" target="_blank" class="button primary">LiveLink</a> 
+							  <a href="https://github.com/jpbeeson/Weather-Dashboard" target="_blank" class="button">Code</a>
+							  <p>
+							  A weather application utilizing openweathermap api to display current conditions along with a 5-day forecast 
+							  by searching for a select city. A history is collected and allows the user to search for a new city or select
+							  from previously searched cities. Technologies used: HTML, CSS, Javascript, ajax, and API integration.
+							  </p>
 							</div>
 						  </div>
 						  <div class="column">
 							<div class="content2">
-							<img src="" alt="Lights" style="width:100%">
-							  <h3>My Work</h3>
-							  <p>Fourth</p>
+							  <h3>Day Planner</h3>
+							  <img class="cardImg" src="images/DayPlanner.gif" alt="DayPlanner">
+							  <a href="https://jpbeeson.github.io/Day-Planner/" target="_blank" class="button primary">LiveLink</a> 
+							  <a href="https://github.com/jpbeeson/Day-Planner" target="_blank" class="button">Code</a>
+							  <p>
+							  A simple day planner application, allowing the user to log events throughout their day. Information
+							  is stored in local storage and will stay upon reload. Block colors change depending on the current time. 
+							  Technologies used: HTML, CSS, JavaScript, and JSON.
+							  </p>
 							</div>
 						  </div>
 					</div>
 					<div class="row">
 						<div class="column">
 						  <div class="content2">
-							<img src="" alt="Mountains" style="width:100%">
-							<h3>My Work</h3>
-							<p>First</p>
+							<h3>Coding Quiz</h3>
+							<img class="cardImg" src="images/codingQuiz.gif" alt="CodingQuiz">
+							<a href="https://jpbeeson.github.io/CodingQuiz/" target="_blank" class="button primary">LiveLink</a> 
+							<a href="https://github.com/jpbeeson/CodingQuiz" target="_blank" class="button">Code</a>
+							<p>
+							A web-based application that allows the user to take a simple quiz to test their coding knowledge. Scores
+							are saved to local storage. Scores are calculated based off of the user's input, with incorrect answers 
+							taking 15 seconds off of their total time. Users are showed highscores at the end after submitting their score.
+							Technologies used: HTML, CSS, JavaScript, and JSON.  
+							</p>
 						  </div>
 						</div>
 						<div class="column">
 						  <div class="content2">
-						  <img src="" alt="Lights" style="width:100%">
-							<h3>My Work</h3>
-							<p>Second</p>
+							<h3>Random Password Generator</h3>
+							<img class="cardImg" src="images/rpg.gif" alt="RPG">
+							<a href="https://jpbeeson.github.io/Random-Password-Generator/" target="_blank" class="button primary">LiveLink</a> 
+							<a href="https://github.com/jpbeeson/Random-Password-Generator" target="_blank" class="button">Code</a>
+							<p>
+							A simple random password generator that allows the user to select from specific criteria to create a randomized
+							password. Technologies used: HTML, CSS, and JavaScript.
+							</p>
 						  </div>
 						</div>
 						<div class="column">
 							<div class="content2">
-							  <img src="" alt="Mountains" style="width:100%">
-							  <h3>My Work</h3>
-							  <p>Third</p>
-							</div>
-						  </div>
-						  <div class="column">
-							<div class="content2">
-							<img src="" alt="Lights" style="width:100%">
-							  <h3>My Work</h3>
-							  <p>Fourth</p>
+							  <h3>Example Portfolio</h3>
+							  <img class="cardImg" src="images/examplePortfolio.gif" alt="ExPortfolio">
+							  <a href="https://jpbeeson.github.io/Example-Portfolio/" target="_blank" class="button primary">LiveLink</a> 
+							  <a href="https://github.com/jpbeeson/Example-Portfolio" target="_blank" class="button">Code</a>
+							  <p>
+							  A simple example portfolio designed utilizing HTMl and CSS. 
+							  </p>
 							</div>
 						  </div>
 					</div>
@@ -127,8 +162,83 @@
 			</article>
 
 			<!-- Resume -->
-			<article id="resume">
-				<h2 class="major">Resume</h2>
+			<article id="resumeCV">
+				<h1 class="major">Resume</h1> 						
+				<br>
+					<h2 class="major">Education</h2>
+					<p>
+						<b>University of North Carolina at Chapel Hill's Full-Stack Coding Bootcamp</b> <br>
+						Expected date of certification: <i>December 2020</i> <br>
+						Learned Technologies: HTML, CSS, JavaScript, jQuery, AJAX, Node.js, MySQL, Handlebars, MongoDB, and more
+					</p>
+					<p>
+						<b>University of North Carolina at Chapel Hill</b> <br>
+						Graduation date: <i>August 2019</i> <br>
+						<i>Bachelor of Arts in Psychology</i> <br>
+						Focus: Interpersonal Communication, Behavior, Persuasion, and Self-Regulation
+						</p>
+					<h2 class="major">Professional Experience</h2>
+					<p>
+						<b>Fitness Instructor at 9Round Fitness</b> <br>
+						<i>September 2020 - current</i> <br>
+						- Instruct and lead fitness classes <br>
+						- Present sales pitches to new clients
+					</p>
+					<p>
+						<b>Independent Contractor / "Sweeper" at Sweeps, Co.</b> <br>
+						<i>March 2017 - current</i> <br>
+						- 114 jobs with an average rating of 4.95/5.00 <br>
+						- Self-scheduled tasks such as painting, moving, landscape, cleaning, repair, etc. <br>
+						- Built positive rapport with individual clients
+					</p>
+					<p>
+						<b>Registered Care Specialist at Thompson Child & Family Focus</b> <br>
+						<i>July 2020 - September 2020</i> <br>
+						- Rehabilitated traumatized youth in a Residential Care Facility <br>
+						- Taught children coping skills & utilized cognitive behavioral therapy techniques to adjust behavior
+					</p>
+					<p>
+						<b>UDA Technician / Administrative Assistant at The Evolution Group</b> <br>
+						<i>January 2020 - March 2020</i> <br>
+						- Developed healthy relationships with mental health and substance abuse clients <br>
+						- Maintained administrative records
+					</p>
+					<p>
+						<b>Security / Bartender at Pantana Bob's</b> <br>
+						<i>June 2016 - May 2019</i> <br>
+						- Fostered teamwork and leadership skills for a high-stress environment <br>
+						- Developed the ability to defuse violent situations and resolve issues among patrons 
+					</p>
+					<p>
+						<b>Class Instructor / Front Desk / Sales</b> <br>
+						<i>July 2018 - October 2018</i> <br>
+						- Developed interpersonal skills for individual and group training <br>
+						- Built rapport with individual clients and created a comfortable, inviting environment <br>
+						- Managed merchandise sales and recruited new gym members/personal training clients
+					</p>
+					<p>
+						<b>Painter at Altrath Painting and Nothing But Detail</b> <br>
+						<i>Summer of 2014 and 2015</i> <br>
+						- Worked with small teams to paint large wedding complexes and home interiors
+
+					</p>
+					<h2 class="major">Community Involvement</h2>
+					<p>
+						<b>Carolina Boxing Club</b> <br>
+						<i>January 2014 - May 2019</i> <br>
+						Positions held: President, Assistant Coach, Vice-President, Head Trainer, Team Captain, Secretary <br>
+						- 2000+ hours of hands-on training with individuals and groups, ranging from 14 to 55 years of age <br>
+						- Instructed and supervised team of 10-15 trainers to teach boxing o a club of over 150 members <br>
+						- Provided daily updates and instructions to a club of 50-150 people <br>
+						- Implemented a large focus on improving self-esteem, self-efficacy, and community involvement <br>
+						- Constructed daily boxing technique, conditioning, and training plans <br>
+						- Provided guidance and emotional support for the club and team
+					</p>
+					<p>
+						<b>Work the Dream Fundraiser</b> <br>
+						<i>April 2017</i> <br>
+						- Taught boxing for confidence and self-defense to youth in Durham, North Carolina
+					</p>
 				<p></p>
 			</article>
 
@@ -413,7 +523,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 		<!-- Footer -->
 		<footer id="footer">
-			<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+			<p>Reach me at <a href="mailto:beeson.jp@gmail.com">Beeson.jp@gmail.com</a></p>
 		</footer>
 
 	</div>
