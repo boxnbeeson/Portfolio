@@ -6,7 +6,7 @@
   ## Table of Contents
   * [Demo](#demo)
   * [Developer's Information](#devInfo)
-  * [Credientials](#credientials)
+  * [Credentials](#credentials)
   * [License](#license)
   
   ## <a name="demo"></a>Demo
@@ -17,12 +17,13 @@
   <br>
   Name: Jacob Beeson
   <br>
-  Github Link: github.com/jpbeeson
+  [Github](https://github.com/boxnbeeson)
   <br>
   Email: <boxnbeeson@gmail.com>
 
-  ## <a name="credientials"></a>Credientials
+  ## <a name="credentials"></a>Credentials
   Template downloaded and used under the CCA license from https://html5up.net/
   ## <a name="license"></a>License
-  Creative Commons Attribution 3.0 Unported <br>
+  Creative Commons Attribution 3.0 Unported
+  <br>
   http://creativecommons.org/licenses/by/3.0/
