@@ -64,11 +64,13 @@
 }
 
 .topButtonCentered {
-  margin-left: 17%;
+  display: flex;
+  justify-content: center;
 }
 
 .otherButtonCentered {
-  margin-left: 6.5%;
+  display: flex;
+  justify-content: center;
 }
 
 .cardImg {
@@ -93,12 +95,25 @@
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1200px) {
+
+  .currentButtonCentered, .topButtonCentered, .otherButtonCentered{
+    display: flex;
+      flex-direction: column;  
+      justify-content: space-evenly; 
+      
+  }
+
+}
 @media screen and (max-width: 900px) {
   .currentColumn, .topColumn, .otherColumn {
     width: 50%;
    }
   .currentButtonCentered, .topButtonCentered, .otherButtonCentered{
-    margin-left: 1%;
+    display: flex;
+      flex-direction: column;  
+      justify-content: space-evenly; 
+      
   }
   .portfoliop { 
     text-indent: 10px;
@@ -115,7 +130,10 @@
     font-size: 80%;
   }
   .currentButtonCentered, .topButtonCentered, .otherButtonCentered{
-    margin-left: 1%;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-evenly;  
+      
   }
   .portfoliop { 
     text-indent: 10px;
